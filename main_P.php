@@ -13,7 +13,7 @@
     <div class="View_Profile">
     <h1 id="NameUsers">Nombre del usuario</h1>
     <br>
-    <a href="BlackMoon/Account/account_P.php">Edit Profile</a>
+    <a href="/Account/account_P.php">Edit Profile</a>
     <!-- <a herf="addactivite">Add Activite</a> -->
     </div>
     <ul>

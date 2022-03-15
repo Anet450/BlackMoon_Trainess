@@ -27,5 +27,7 @@
         <a href="Logins/logingCEO_A.php">Add Profike Ussers: Tutor</a>
         </li>
     </ul>
+    <br>
+    <a href="SingIng/close.php">Close</a>
 </body>
 </html>

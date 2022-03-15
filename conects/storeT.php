@@ -12,10 +12,11 @@
         $Instagram = $_POST['Instagram'];
         $Twitter = $_POST['Twitter'];
         $Email = $_POST ['Email'];
-        $Password = $_POST ['Password'];
+        $Password = $_POST['Password'];
+        //$Password = hash('sha512',$Password);
         
     
-        $sql = "INSERT INTO cuentastutor(Code, Name, LastName, Ocupation, Telephone, Address, Facebook, Instagram, Twitter, Email, Password) VALUES ('$Code', '$Name','$LastName', '$Ocupation', '$Telephone', '$Address', '$Facebook', '$Instagram', '$Twitter', '$Email', '$Password')";
+        $sql = "INSERT INTO cuentastutores(Code, Name, LastName, Ocupation, Telephone, Address, Facebook, Instagram, Twitter, Email, Password) VALUES ('$Code', '$Name','$LastName', '$Ocupation', '$Telephone', '$Address', '$Facebook', '$Instagram', '$Twitter', '$Email', '$Password')";
         $conn->exec($sql);
         header('Location: ../main_T.php');
     }

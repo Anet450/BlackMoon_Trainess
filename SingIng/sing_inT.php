@@ -1,5 +1,5 @@
     <?php 
-        include('conects/conect.php');
+        include('../conects/conect.php');
     ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -12,7 +12,8 @@
     <body>
         <h1>__BLACK MOON__</h1>
         <h2>__TRAINEESS__</h2>
-        <!--<form action="store.php" method="POST" name="frm" id="formulario"> -->
+        <h3>__TUTORS__</h3>
+        <form action="SingInT.php" method="POST" name="frm" id="formulario">
         <!--Esta parte es el formulario de entrada a la aplicacion-->
             <p id="preguntas"> WELCOME </p>
                 <label id="preguntas" for="Code">
@@ -43,6 +44,6 @@
                     Plata Montes Daniel Alejandro
                 </p>
            </footer>
-         <!-- </form> -->
+         </form>
     </body>
 </html>

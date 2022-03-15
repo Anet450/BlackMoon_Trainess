@@ -13,7 +13,7 @@
         <h1>__BLACK MOON____TRAINESS__ </h1>
         <h2>ENTER NEW TRAINER</h2>
         <h3>LOGING</h3>
-       <!--<form action="store.php" method="POST" name="frm" id="formulario">-->
+        <form action="../conects/storeE.php" method="POST" name="frm" id="formulario">-->
                 <label id="cuestion" for="code">
                     Code:
                     <input class="cuestion" type="text" name="Code" required>
@@ -31,6 +31,11 @@
                 <label id="cuestion" for="Ocupation">
                     Ocupation: 
                     <input class="date" type="text" name="Ocupation" required>
+                </label><br>
+
+                <label id="cuestion" for="Group">
+                    Group: 
+                    <input class="date" type="text" name="Group" required>
                 </label><br>
                 
                 <label id="cuestion" for="Conect">
@@ -82,6 +87,6 @@
                     Nombre: Anet Guadalupe Muñoz De Santiago
                 </p>
             </footer>
-       <!--</form> -->
+       </form> 
 </body>
 </html>

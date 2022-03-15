@@ -13,8 +13,8 @@
         <h1>__BLACK MOON____TRAINESS__ </h1>
         <h2>ENTER NEW PROXIDOLS</h2>
         <h3>LOGING</h3>
-       <!--<form action="store.php" method="POST" name="frm" id="formulario">-->
-                <label id="cuestion" for="code">
+       <form action="../conects/storeP.php" method="POST" name="frm" id="formulario">
+                <label id="cuestion" for="Code">
                     Code:
                 <input class="cuestion" type="text" name="Code" required>
                 </label><br>
@@ -32,10 +32,10 @@
                     Ocupation: 
                     <input class="date" type="text" name="Ocupation" required>
                 </label><br>
-                
+
                 <label id="cuestion" for="Group">
                     Group: 
-                    <input class="date" type="text" name="Ocupation" required>
+                    <input class="date" type="text" name="Group" required>
                 </label><br>
 
                 <label id="cuestion" for="Conect">
@@ -45,12 +45,12 @@
                 
                 <label id="cuestion" for="Telephone">
                     Telephone: 
-                    <input class="date" type="text" name="Telephone" required>
+                    <input class="date" type="numeric" name="Telephone" required>
                 </label><br>
                 
                 <label id="cuestion" for="Address">
-                    Addrress: 
-                    <select  class="date"  name="Adrres">
+                    Address: 
+                    <select  class="date"  name="Address">
                         <option  class="date"  value="BM 12 moons">BM 12 moons</option>
                         <option  class="date" value="BM Saturn" selected>BM Saturn</option>
                         <option class="date"  value="BM Constellation" selected>BM Constellation</option>
@@ -73,12 +73,30 @@
                     Twitter: 
                     <input class="date" type="text" name="Twitter" required>
                 </label><br>
-                
+
                 <label id="cuestion" for="Age">
                     Age:
-                    <input class="datos" type="numeric" name="Edad" required>
+                    <input class="datos" type="numeric" name="Age" required>
                 </label><br>
-                
+
+                <label id="cuestion" for="Height">
+                    Height:
+                    <input class="datos" type="numeric" name="Height" required>
+                </label><br>
+
+                <label id="cuestion" for="Weight">
+                    Weight:
+                    <input class="datos" type="numeric" name="Weight" required>
+                </label><br>
+
+                <label>
+                    Gender: 
+                    <input  class="date" type="radio" id="Hombre" name="Gender" value="Man" checked>
+                    <label for="Man">Man</label>
+                    <input  class="datos" type="radio" id="Mujer" name="Gender" value="Woman">
+                    <label for="Womanr">Woman</label>
+                </label><br>
+
                 <label id="cuestion" for="Email">
                     Email: 
                     <input class="date" type="email" name="Email" required>
@@ -97,6 +115,6 @@
                     Nombre: Anet Guadalupe Muñoz De Santiago
                 </p>
             </footer>
-       <!--</form> -->
+       </form>
 </body>
 </html>
