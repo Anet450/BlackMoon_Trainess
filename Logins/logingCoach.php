@@ -1,5 +1,6 @@
     <?php 
         include('../conects/conect.php');
+        include('../name.php');
     ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -7,10 +8,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil Tutor</title>
+    <title>Perfil 
+        <?php 
+            echo name($row);
+        ?>
+    </title>
 </head>
 <body class="body">
-        <h1>__BLACK MOON____TRAINESS__ </h1>
+        <h1 id="NameUsers">__BLACK MOON____TRAINEES__
+        <?php 
+        echo email($row);
+        ?></h1>
         <h2>ENTER NEW TRAINER</h2>
         <h3>LOGING</h3>
         <form action="../conects/storeE.php" method="POST" name="frm" id="formulario">-->
